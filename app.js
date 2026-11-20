@@ -57,7 +57,7 @@ document.querySelectorAll('.host-card').forEach((card, index) => {
   const back = document.createElement('div');
   back.className = 'host-card-face host-card-back';
   front.append(image, meta);
-  back.innerHTML = `<img class="host-card-back-image" src="ホストカード裏面素材.png" alt="ホストカードの裏面素材">`;
+  back.innerHTML = `<img class="host-card-back-image" src="card-ura.png" alt="ホストカードの裏面素材">`;
   inner.append(front, back);
   card.replaceChildren(inner);
 
